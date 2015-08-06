@@ -1,0 +1,51 @@
+.alert {
+	color: #ff0000;
+}
+
+body {
+	background-color: #dad9d4;
+	text-align: center;
+	font-family: "Verdana", Tahoma, sans-serif;
+}
+
+div.add {
+	padding: 1em;
+}
+
+#frame {
+	margin-left: 5%;
+	width: 90%;
+	background-color: white;
+}
+
+#main {
+	margin: 1em;
+}
+
+#w3c, #banner {
+	padding: 1em;
+	background-image: url('banner-background.png');
+	background-repeat: repeat-x;
+	text-align: left;
+	color: white;
+}
+
+fieldset {
+	margin-left: auto;
+	margin-right: auto;
+	width: 36em;
+	margin-top: 1em;
+}	
+
+
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	border-collapse: collapse;
+}
+
+tr:nth-of-type(even) {
+	background-color: #dad9d4;
+}

@@ -1,0 +1,52 @@
+/* Author: Jiyu Xiao 80625122 CICS 506
+   CSS for recipe.html */
+   
+body {
+		color: #404040;
+		font: 11px Georgia, serif;
+		background: url( 'silverware.jpg' );
+}
+
+h1, h2, h3, h4, h5, h6 {
+		background-color: #F0F0F0;
+		color: #A4A400;
+		font: 18px arial, sans-serif;
+		text-decoration: underline;
+		display: inline;
+		letter-spacing: 0.25cm;
+}
+
+div { 
+		text-align: center;
+}
+
+h1 {
+		font: bold 22px arial, sans-serif;
+}
+
+ul {
+		list-style-image: url( 'pie_icon.gif' );
+		/* Use the pie_icon.gif as the list style*/
+}
+
+
+a {
+		color: #A4A400;
+}
+
+
+blockquote {
+		background-color: #FFFFA8;
+		color: #404040;
+		font: italic 11px Georgia, serif;	
+}
+
+
+pre {
+		font: 11px Courier, monospace;
+}
+
+
+span {
+		text-decoration: line-through ;
+}

@@ -1,0 +1,35 @@
+body {
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+.banner {
+	background-color: #005AB4;
+	padding: 0.5em;
+}
+
+.banner #logo {
+	float: left;
+	margin-right: 1em;
+}
+
+.banner .header {
+	color: white;
+	font-size: 400%;
+}
+
+#copyinfo {
+	color: white;
+}
+
+#content {
+	color: #005AB4;
+	margin: 2em;
+}
+
+#warning {
+	color: red;
+}
+
+#logout {
+	text-decoration: underline;
+}

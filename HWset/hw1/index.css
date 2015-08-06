@@ -1,0 +1,32 @@
+/* Author: Jiyu Xiao 80625122 CICS 506
+   CSS for index.html */
+   
+   
+h1 {
+	font-family: Old English Text MT;
+	font-size: 48px;
+	text-align: center;
+	color: #BBBB90;
+}
+
+
+p, ul, ol , a {
+	color: #404040;
+	font: 18px Georgia, serif;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	/* Do not use the list style*/
+}
+
+a {
+	color: #A4A400;
+}
+
+body {
+	background: url( 'pi.jpg' );
+}
+
+

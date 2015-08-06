@@ -1,0 +1,46 @@
+body {
+	background-color: #CCCCFF;
+	font: bold 24pt arial, Helvetica, sans-serif;
+}
+
+div#floater {
+	float: left;
+	color: red;
+}
+
+div#property {
+	text-align: center;
+}
+
+div#check {
+	float: right;
+}
+
+h1{
+	font: bold 32pt;
+	text-align: center;
+	margin: 0pt;
+}
+
+textarea {
+	width: 90%;
+	height: 400px;
+	font: bold 12pt Courier New, Courier, monospace;
+	margin-left: 5%;
+}
+
+fieldset {
+	border: 5px solid;
+	display: inline;
+	vertical-align: top;
+}
+
+legend {
+	text-align: left;
+}
+
+select, button {
+	font: bold 24pt arial, Helvetica, sans-serif;
+}
+
+

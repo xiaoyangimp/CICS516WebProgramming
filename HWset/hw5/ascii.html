@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "UTF-8" />
+		<title>ASCII Animation</title>
+		<link rel = "stylesheet" type = "text/css" href = "ascii.css" />
+	</head>
+	
+	<body>
+		<script src="https://www.cs.ubc.ca/~feeley/cics516/cur/class-only/hw5/animations.js"></script>
+		<script src="myanimation.js"> </script>
+		<script src="ascii.js"></script>
+	
+		<div id="floater"> &hearts; </div>
+		<h1> CICS 516 ASCII Animation Viewer</h1>
+		
+		<textarea id="disp" rows = "20" cols = "80" > </textarea>
+
+		<div id="property">
+			<fieldset>
+				<legend> Play Controls </legend>
+				<button id="start" onclick="clickstart()" > Start </button>
+				<button id="stop" onclick="clickstop()" disabled> Stop </button>
+			</fieldset>
+			
+			<fieldset>
+				<legend> Animation </legend>
+				<select id="animation" name="animation" onchange="changeAnimation()">
+					<option selected>Blank</option>
+					<option>Exercise</option>
+					<option>Juggler</option>
+					<option>Bike</option>
+					<option>Dive</option>
+					<option>Custom</option>
+				</select>
+			</fieldset>
+			
+			<fieldset>
+				<legend> Size </legend>
+				<select id="size" name="size" onchange="changeSize()">
+					<option value= "7">Tiny</option>
+					<option value= "10">Small</option>
+					<option value= "12" selected>Medium</option>
+					<option value= "16">Large</option>
+					<option value= "24">Extra Large</option>
+					<option value= "32">XXL</option>
+				</select>
+			</fieldset>
+			
+			<fieldset>
+				<legend> Speed </legend>
+				<input type="checkbox" id="turbo" name="turbo" onclick="turbo()"> Turbo
+			</fieldset>
+		</div>
+		
+		<div id="check">
+			<div>
+				<a href ="http://validator.w3.org/check/referer">
+					<img src = "image/w3c-xhtml.png" alt = "Valid HTML5">
+				</a>
+			</div>
+			
+			<div>
+				<a href = "http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+					<img src = "image/w3c-css.png" alt = "Valid CSS">
+				</a>
+			</div>
+			
+			<div>
+				<a href = "https://webster.cs.washington.edu/jslint/?referer">
+					<img src = "image/190M-JSLint.png" alt = "Valid JS">
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
